@@ -19,12 +19,13 @@ userName();
 // User's 5 Questions  :
 var rightA = 0;
 
-var userQ1 = '';
-var userQ2 = '';
-var userQ3 = '';
-var userQ4 = '';
-var userQ5 = '';
 
+
+
+
+
+function q1 (){
+    var userQ1 = '';
 while ((userQ1 != 'yes' && userQ1 != 'y') && (userQ1 != 'no'&& userQ1!= 'n')) {
 
     userQ1 = prompt('do you think i use sarcasm ? yes/no');
@@ -41,8 +42,10 @@ while ((userQ1 != 'yes' && userQ1 != 'y') && (userQ1 != 'no'&& userQ1!= 'n')) {
         alert("wrong answer")
     }
 }
+}
 // console.log('do you think i use sarcasm ?' + userQ1);
-
+function q2 (){
+    var userQ2 = '';
 while ((userQ2 != 'yes' && userQ2 != 'y') && (userQ2 != 'no'&& userQ2!= 'n')) {
 
     userQ2 = prompt('do you think i am heavy ? yes/no');
@@ -59,9 +62,11 @@ while ((userQ2 != 'yes' && userQ2 != 'y') && (userQ2 != 'no'&& userQ2!= 'n')) {
         rightA++;
     }
 }
+}
 // console.log('do you think i am heavy ?' + userQ1);
 
-
+function q3 (){
+    var userQ3 = '';
 while ((userQ3 != 'yes' && userQ3 != 'y') && (userQ3 != 'no'&& userQ3!= 'n')) {
 
     userQ3 = prompt('do you think i can swim ? yes/no');
@@ -78,9 +83,11 @@ while ((userQ3 != 'yes' && userQ3 != 'y') && (userQ3 != 'no'&& userQ3!= 'n')) {
         alert("wrong answer")
     }
 }
+}
 // console.log('do you think i can swim ?' + userQ1);
 
-
+function q4 (){
+    var userQ4 = '';
 while ((userQ4 != 'yes' && userQ4 != 'y') && (userQ4 != 'no'&& userQ4!= 'n')) {
 
     userQ4 = prompt('do you think that i am Committed to my religion ?yes/no');
@@ -97,8 +104,10 @@ while ((userQ4 != 'yes' && userQ4 != 'y') && (userQ4 != 'no'&& userQ4!= 'n')) {
         alert("wrong answer")
     }
 }
+}
 // console.log('do you think that i am Committed to my religion ?' + userQ1);
-
+function q5 (){
+    var userQ5 = '';
 while ((userQ5 != 'yes' && userQ5 != 'y') && (userQ5 != 'no'&& userQ5!= 'n')) {
 
     userQ5 = prompt('do you think i watch football ?yes/no');
@@ -115,12 +124,13 @@ while ((userQ5 != 'yes' && userQ5 != 'y') && (userQ5 != 'no'&& userQ5!= 'n')) {
         alert("wrong answer")
     }
 }
-
+}
 // console.log('do you think i watch football ?' + userQ1);
 
 
 
 // Qestion #6
+function q6 (){
 var userQ6;
 var i = 0;
 while (userQ6 != 11 && i < 4) {
@@ -139,9 +149,10 @@ while (userQ6 != 11 && i < 4) {
         alert('Sorry you have been exhausted all attempts and the right number is 11')
     }
 }
+}
 // console.log('The user pick' + userQ6);
-
 // Qestion #7
+function q7 (){
 var country = ['saudia', 'syria', 'uae']
 var userQ7;
 var correctA = false;
@@ -167,8 +178,15 @@ while (!correctA && i < 6) {
         alert('Sorry you have been exhausted all attempts and the countries are : saudia, uae and syria')
     }
 }
-
+}
 // # of right questions :)
+q1();
+q2();
+q3();
+q4();
+q5();
+q6();
+q7();
 
 if (rightA >= 4) {
     alert('Great , You answered ' + rightA + ' questions correct !')
