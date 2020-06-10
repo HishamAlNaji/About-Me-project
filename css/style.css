@@ -1,11 +1,19 @@
 body{
 
     text-align: center;
+    background-color: salmon;
 }
 
 header h1 {
 
-    font-size: xx-large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);;
+    margin: auto;
     text-align: center;
+    font-size: xx-large;
 
+
+}
+
+#guest {
+    color: #6f0000;
 }
