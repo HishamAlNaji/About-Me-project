@@ -5,6 +5,6 @@ About me project : webpage that quizzes the user on fun facts gives the user som
 "Read LICENSE"
 Hisham Al-Naji , hishamnaji1010@gmail.com , 
 driver : mohammad samara
-navigator: hisham naji
+navigator: hisham naji :)
 observer : abdullah
 the code was eddited by mohammad samara with pair programming system.
