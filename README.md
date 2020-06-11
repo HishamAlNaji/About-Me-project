@@ -1,10 +1,49 @@
 # About-Me-project
 
-About me project : webpage that quizzes the user on fun facts gives the user some basic information about who you are and where you came from .
-5-line code snippet on how its used (if it's a library)
-"Read LICENSE"
-Hisham Al-Naji , hishamnaji1010@gmail.com , 
-driver : mohammad samara
-navigator: hisham naji :)
-observer : abdullah
-the code was eddited by mohammad samara with pair programming system.
+
+# About the Project
+
+webpage that quizzes the user on fun facts gives the user some basic information about who you are and where you came from .
+
+# Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+# Prerequisites
+
+- Operating system: Mac OS, Windows, Linux
+- Git
+  Follow the instruction in the links below to install git in your machine
+  - [Windows](https://git-scm.com/download/win)
+  - [Mac OS](https://git-scm.com/download/mac)
+  - [Linux](https://git-scm.com/download/linux)
+- [Codeing Editor](https://www.wpbeginner.com/showcase/12-best-code-editors-for-mac-and-windows-for-editing-wordpress-files/)
+
+# Installation
+
+1. open your terminal
+
+2. Clone the repo
+
+`git clone https://github.com/HishamAlNaji/About-Me-project.git`
+
+# Usage
+
+You can use this project to start youe own blog. For now there is just about me page and I will add to the project later the other pages incrementally so you can check this repo from time to time.
+
+I added a guessing game to the blog so the visitor can guess who your through series of questions.
+
+
+# Contribution :
+
+- [Abdallah Safi](https://github.com/AbdallahSafi)
+
+# License
+
+Distributed under the MIT License. See [LICENSE](https://www.mit.edu/~amini/LICENSE.md) for more information.
+
+# Contact
+
+Hisham Naji - hishamnaji1010@gmail.com
+
+Project Link: https://github.com/HishamAlNaji/About-Me-project
