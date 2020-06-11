@@ -2,21 +2,32 @@
 
 
 // User welcoming :
-
 alert('We need to know about you :) ');
 var UN ;
 
 //Get and Display User name
 userName();
 
+// Start a guessing Game
+GeussingGame();
+
 //Geussing Game Questions
-// q1();
-// q2();
-// q3();
-// q4();
-// q5();
-// q6();
-// q7();
+function GeussingGame(){
+  q1();
+  q2();
+  q3();
+  q4();
+  q5();
+  q6();
+  q7();
+
+  // # of right questions :)
+if (rightA >= 4) {
+  alert('Great , You answered ' + rightA + ' questions correct !')
+} else {
+  alert('You just answered ' + rightA + ' questions correct')
+}
+}
 
 
 function userName() {
@@ -29,7 +40,6 @@ function userName() {
 
 // User's 5 Questions  :
 var rightA = 0;// Counter for the correct Answers
-
 function q1 (){
   var userQ1 = '';
   while ((userQ1 != 'yes' && userQ1 != 'y') && (userQ1 != 'no'&& userQ1!= 'n')) {
@@ -184,12 +194,7 @@ function q7 (){
     }
   }
 }
-// # of right questions :)
 
 
-if (rightA >= 4) {
-  alert('Great , You answered ' + rightA + ' questions correct !')
-} else {
-  alert('You just answered ' + rightA + ' questions correct')
-}
+
 // console.log('the user pick' + userQ7);
