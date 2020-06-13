@@ -9,6 +9,8 @@ var UN;
 //Get and Display User name
 userName();
 
+var rightA = 0;// Counter for the correct Answers
+
 //Geussing Game Questions
 q1();
 q2();
@@ -21,14 +23,14 @@ q7();
 
 function userName() {
   UN = prompt('Can you tell me your name please ');
-  alert('Wlecome' + UN + 'to our website :D');
+  alert('Wlecome ' + UN + ' to our website :D');
   return UN;
 }
 
 
 
 // User's 5 Questions  :
-var rightA = 0;// Counter for the correct Answers
+
 
 function q1() {
   var userQ1 = '';
