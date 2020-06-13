@@ -38,9 +38,6 @@ I added a guessing game to the blog so the visitor can guess who your through se
 
 - [Abdallah Safi](https://github.com/AbdallahSafi)
 
-# License
-
-Distributed under the MIT License. See [LICENSE](https://www.mit.edu/~amini/LICENSE.md) for more information.
 
 # Contact
 
